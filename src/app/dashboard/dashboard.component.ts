@@ -13,7 +13,6 @@ export class DashboardComponent implements OnInit {
   constructor(private heroService: HeroService) { }
 
   ngOnInit(): void {
-    console.log("EXW KAPSEI EGKEFALIKA KUTTARA");
     this.getHeroes();
   }
 
